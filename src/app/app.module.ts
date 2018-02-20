@@ -9,14 +9,12 @@ import {ListPage} from '../pages/list/list';
 import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 import {BodyElement} from "../elements/body-element/body-element";
-import {MyFirstElement} from "../elements/myfirstelement/my-first-element";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     BodyElement,
-    MyFirstElement,
     ListPage
   ],
   imports: [
@@ -28,7 +26,6 @@ import {MyFirstElement} from "../elements/myfirstelement/my-first-element";
     MyApp,
     HomePage,
     ListPage,
-    MyFirstElement,
     BodyElement
   ],
   providers: [
