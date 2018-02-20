@@ -1,7 +1,22 @@
 page-home {
   ion-header {
     background-color: white !important;
+    font-size: 1000px;
+
   }
+
+  .toolbar-title-md {
+    padding: 0 px;
+    font-size: 5rem;
+    font-weight: 500;
+    color: #424242;
+  }
+
+  toolbar-ios-button-font-size {
+    background-color: #f53d3d;
+  }
+
+
 }
 
 
