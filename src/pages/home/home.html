@@ -1,18 +1,33 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+<ion-header class="background">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-9>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+
+              <ion-title>PSD</ion-title>
+
+
+            </ion-col>
+          </ion-row>
+
+          <ion-row>
+
+
+              <ion-title>Professional Scrum Developer</ion-title>
+
+
+          </ion-row>
+        </ion-grid>
+      </ion-col>
+      <ion-col col-3>
+        <h2> <img class="logo" src="../../assets/imgs/logo.jpg"> </h2>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <page-body-element></page-body-element>
 </ion-content>
